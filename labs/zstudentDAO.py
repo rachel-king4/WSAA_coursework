@@ -29,7 +29,7 @@ class StudentDAO:
         self.cursor.close()
     
     
-    def getAll(self):P
+    def getAll(self):
         cursor = self.getCursor()
         sql="select * from student"
         cursor.execute(sql)
